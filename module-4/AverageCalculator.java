@@ -1,5 +1,6 @@
-// Crystal Long Module 4 Programming Assignment 6/11/2025
-// Calculate Average with different methods
+// Crystal Long
+// 6/11/2025
+// Module 4 Programming Assignment – Average Calculator
 public class AverageCalculator {
 
     // Method to calculate average short array
