@@ -1,6 +1,6 @@
 // Crystal Long
 // 6/19/2025
-// Mod 5 -Programming Assignment Locate Largest and Smallest 
+// Mod 5-Programming Assignment Locate Largest and Smallest 
 public class LocateLargest {
 
     // Locate largest in double[][]
