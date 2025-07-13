@@ -1,3 +1,8 @@
+// Name: Crystal Long
+// Date: July 12, 2025
+// Assignment: M10: Programming Assignment
+// Purpose: Instantiates and displays information for both Domestic and International divisions.
+
 public class UseDivision {
     public static void main(String[] args) {
         // International Division Instances

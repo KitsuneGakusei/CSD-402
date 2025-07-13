@@ -1,3 +1,8 @@
+// Name: Crystal Long
+// Date: July 12, 2025
+// Assignment: M10: Programming Assignment
+// Purpose: Implements the InternationalDivision subclass with country and language-specific division information.
+
 public class InternationalDivision extends Division {
     private String country;
     private String language;
