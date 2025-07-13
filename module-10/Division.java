@@ -1,8 +1,8 @@
 public abstract class Division {
     protected String divisionName;
-    protected int accountNumber;
+    protected String accountNumber;
 
-    public Division(String divisionName, int accountNumber) {
+    public Division(String divisionName, String accountNumber) {
         this.divisionName = divisionName;
         this.accountNumber = accountNumber;
     }
