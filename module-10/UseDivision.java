@@ -1,14 +1,21 @@
 public class UseDivision {
     public static void main(String[] args) {
-        InternationalDivision intl1 = new InternationalDivision("Global Sales", 1001, "Japan", "Japanese");
-        InternationalDivision intl2 = new InternationalDivision("Europe Marketing", 1002, "Germany", "German");
+        // International Division Instances
+        InternationalDivision intlDiv1 = new InternationalDivision(
+            "Asia-Pacific Operations", "AP-1001", "Japan", "Japanese");
+        InternationalDivision intlDiv2 = new InternationalDivision(
+            "Global Logistics", "GL-1002", "Japan", "Japanese");
 
-        DomesticDivision dom1 = new DomesticDivision("West Coast", 2001, "California");
-        DomesticDivision dom2 = new DomesticDivision("East Coast", 2002, "New York");
+        // Domestic Division Instances (using Japanese prefecture names for fun/consistency)
+        DomesticDivision domDiv1 = new DomesticDivision(
+            "Osaka Regional Support", "OS-2001", "Osaka");
+        DomesticDivision domDiv2 = new DomesticDivision(
+            "Kansai Area Sales", "KA-2002", "Kyoto");
 
-        intl1.display();
-        intl2.display();
-        dom1.display();
-        dom2.display();
+        // Displaying the division details
+        intlDiv1.display();
+        intlDiv2.display();
+        domDiv1.display();
+        domDiv2.display();
     }
 }
